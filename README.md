@@ -1,36 +1,368 @@
-# Krismar Marin
-*Madrid - España*
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Krismar Marin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #17111f;
+    --panel: #231a31;
+    --line: #3a2d4f;
+    --text: #f2edf9;
+    --muted: #bdb1d3;
+    --accent: #ff5fa2;
+    --accent-2: #a899ff;
+    color-scheme: dark;
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0 auto;
+    max-width: 920px;
+    padding: 48px 22px 72px;
+    color: var(--text);
+    font-family: "Figtree", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    background-color: var(--bg);
+    background-image:
+      radial-gradient(900px 520px at 85% -8%, rgba(255, 95, 162, 0.16), transparent 70%),
+      radial-gradient(800px 600px at -10% 35%, rgba(168, 153, 255, 0.14), transparent 70%);
+    background-attachment: fixed;
+  }
+  h1, h2, h3 {
+    font-family: "Syne", "Figtree", "Segoe UI", sans-serif;
+    color: var(--text);
+    line-height: 1.2;
+  }
+  h1 {
+    font-size: clamp(2rem, 6vw, 3.4rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 0.2em 0 0.3em;
+  }
+  h2 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 700;
+    margin: 0.2em 0 0.8em;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid var(--line);
+  }
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--accent-2);
+    margin: 1.4em 0 0.7em;
+  }
+  div[align="center"] > h3:first-child { margin-top: 0.4em; }
+  hr {
+    border: 0;
+    height: 1px;
+    margin: 44px 0;
+    background: linear-gradient(90deg, transparent, var(--line) 20%, var(--accent) 50%, var(--line) 80%, transparent);
+    opacity: 0.9;
+  }
+  img { max-width: 100%; vertical-align: middle; }
+  img[width="100%"] {
+    border-radius: 18px;
+    border: 1px solid var(--line);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  }
+  a { color: var(--accent-2); }
+  a:hover { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+  a img { margin: 3px 2px; }
+  strong { color: #fff; font-weight: 700; }
+  em { color: var(--muted); font-size: 1.15rem; }
+  blockquote {
+    margin: 0;
+    padding: 20px 26px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--accent);
+    border-radius: 14px;
+    line-height: 2;
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  th, td {
+    padding: 12px 18px;
+    border-bottom: 1px solid var(--line);
+  }
+  th {
+    background: rgba(168, 153, 255, 0.12);
+    color: var(--text);
+    font-family: "Syne", "Figtree", sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  td + td, th + th { border-left: 1px solid var(--line); }
+  @media (max-width: 640px) {
+    body { padding: 28px 14px 48px; font-size: 1rem; }
+    th, td { padding: 9px 10px; font-size: 0.9rem; }
+    blockquote { padding: 16px 18px; }
+  }
+</style>
+</head>
+<body>
 
-## Sobre Mi
+<div align="center">
 
->   Con formación en análisis de sistemas y programación, y experiencia práctica en tareas administrativas, atención al público y gestión operativa.
->> Esta combinación me permite adaptarme con facilidad tanto a roles de recepción y atención al cliente como a entornos con componente técnico-informático. 
+<h1>✨ Hola, soy Krismar Marin ✨</h1>
 
+<h3>🤖 Desarrollador web full-stack C# | 🎨 Artista Audiovisual</h3>
 
-## Formacion
-######  Centro Tajamar - Programación de bases de datos relacionales junio 2026 - Julio 2026
+<a href="https://www.linkedin.com/in/krismar-marin-101615389/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:krismarmarin@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://github.com/krismarmarin-dev"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 
-* Diseño de bases de datos relacionales: Estructura y diseño de una base de datos, herramientas: MySQL Workbench.
+</div>
 
-* Definición y manipulación de datos: Modelado con DDL. consultas con DML: operaciones CRUD, JOIN, subconsultas, procedimientos almacenados, motores: MySQL
+<hr>
 
-* Desarrollo de programas en el entorno de la base de datos: Integración con aplicaciones multicapa Java, Hibernate y Spring Data, creación de APIs REST para acceso a datos.
+<div align="center">
+  <img src="https://i.pinimg.com/736x/49/74/11/49741185a4c3a9940aba9a8db0f5fa41.jpg" alt="krismar Banner" width="100%"/>
+</div>
 
+<hr>
 
-######  Centro Tajamar - Desarrolo web full stack  con C# en curso 
+<h2>🌟 Sobre mí</h2>
 
-* Programación y desarrollo web: fundamentos de Java, HTML5, CSS3 y JavaScript; programación en C# y desarrollo de aplicaciones web con ASP.NET Core MVC.
+<blockquote>
+🎓 <strong>Graduada de tecnico laboral en analisi y programacion de sistemas(1250 horas)</strong><br>
+🤖 <strong>Developer Jr especializada en C# y Java</strong><br>
+💻 <strong>Frontend Developer con experiencia en React, Angular</strong><br>
+🎨 <strong>Background en producción audiovisual y diseño creativo</strong>
+</blockquote>
 
-* Aplicaciones SPA y DevOps: desarrollo de aplicaciones de página única con Angular, React y Vue JS; conocimientos de DevOps con Docker y Jenkins.
+<hr>
 
-* Metodologías ágiles y habilidades interpersonales: SCRUM, gestión de proyectos con JIRA y Trello, trabajo en equipo y gestión de conflictos.
+<h2>💡 Habilidades Personales</h2>
 
+<div align="center">
 
-[Mi Git Hub ](https://github.com/krismarmarin-dev)
+<table align="center" border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th align="center">🧩 Resolución de Problemas</th>
+      <th align="center">🤝 Trabajo en Equipo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Pensamiento lógico</strong></td>
+      <td align="center"><strong>Colaboración</strong></td>
+    </tr>
+  </tbody>
+</table>
 
+<br>
 
-## Habilidades
+<table align="center" border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th align="center">🔄 Adaptabilidad</th>
+      <th align="center">🎯 Pensamiento Crítico</th>
+      <th align="center">💡 Creatividad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Flexibilidad</strong></td>
+      <td align="center"><strong>Análisis</strong></td>
+      <td align="center"><strong>Innovación</strong></td>
+    </tr>
+  </tbody>
+</table>
 
-* Ofimática y Productividad
-* Microsoft Office: Word, Excel, PowerPoint 
-* Diseño y Creatividad
+<br>
+
+<table align="center" border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th align="center">😊 Actitud Positiva</th>
+      <th align="center">🎭 Diferencial</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Proactividad</strong></td>
+      <td align="center"><strong>Artista + Tech</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<hr>
+
+<h2>🚀 Stack Técnico</h2>
+
+<h3>💻 Lenguajes de Programación</h3>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=java,c" alt="Programming Languages" />
+</div>
+
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Java-FFF6F5?style=flat-square&logo=java&logoColor=black" alt="Java">
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C">
+
+</div>
+
+<h3>🧠 LLM &amp; AI Agents</h3>
+
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Claude-FF8100?style=flat-square&logoColor=white" alt="Claude">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI">
+
+</div>
+
+<h3>🎨 Frontend Development</h3>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,angular,bootstrap" alt="Frontend Stack" />
+</div>
+
+<div align="center">
+
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular">
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap">
+
+</div>
+
+<h3>🌐 Backend &amp; APIs</h3>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=spring" alt="Backend" />
+</div>
+
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Spring_Boot-green?style=flat-square&logo=white" alt="spring">
+
+</div>
+
+<h3>☁️ Cloud &amp; DevOps</h3>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=github" alt="Cloud & DevOps" />
+</div>
+
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Git_Hub-000000?style=flat-square&logo=github&logoColor=white" alt="Git">
+
+</div>
+
+<hr>
+
+<h2>🎓 Educación</h2>
+
+<div align="center">
+
+<table align="center" border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th align="left">🎓 Título</th>
+      <th align="left">🏫 Institución</th>
+      <th align="center">📅 Año</th>
+      <th align="left">📝 Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left"><strong>Analisista y programador de sistemas</strong></td>
+      <td align="left">Sin Fronteras</td>
+      <td align="center">2022</td>
+      <td align="left">Tecnico en analisis y programacion de sistemas</td>
+    </tr>
+    <tr>
+      <td align="left"><strong>Fullstack Developer con Java, Spring y React</strong></td>
+      <td align="left">Tajamar</td>
+      <td align="center">2026</td>
+      <td align="left">526h en desarrollo backend y frontend</td>
+    </tr>
+    <tr>
+      <td align="left"><strong>3616 - Desarrollo Web Full Stack con C# y Microsoft. Core (ESP)</strong></td>
+      <td align="left">Tajamar</td>
+      <td align="center">En curso</td>
+      <td align="left">Formación integral en producción audiovisual</td>
+    </tr>
+    <tr>
+      <td align="left"><strong>Inglés Basico (A2)</strong></td>
+      <td align="left">Carpe diem</td>
+      <td align="center">2025</td>
+      <td align="left">Certificación nivel A2</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<hr>
+
+<h2>🎬 Stack Audiovisual &amp; Creativo</h2>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=ae,pr,ai" alt="Creative Stack" />
+</div>
+
+<div align="center">
+
+  <img src="https://img.shields.io/badge/After_Effects-9999FF?style=flat-square&logo=adobe-after-effects&logoColor=white" alt="After Effects">
+  <img src="https://img.shields.io/badge/Premiere_Pro-9999FF?style=flat-square&logo=adobe-premiere-pro&logoColor=white" alt="Premiere Pro">
+  <img src="https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobe-illustrator&logoColor=white" alt="Illustrator">
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white" alt="Canva">
+
+</div>
+
+<hr>
+
+<h2>📫 Contacto</h2>
+
+<div align="center">
+
+<h3>¡Conectemos! 🤝</h3>
+
+<strong>Siempre abierta a nuevas oportunidades, colaboraciones y conversaciones</strong>
+
+<br><br>
+
+<a href="https://www.linkedin.com/in/krismarmarin/"><img src="https://img.shields.io/badge/LinkedIn-Krismar_Marin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:krismarmarin@gmail.com"><img src="https://img.shields.io/badge/Email-krismarmarin@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://github.com/krismarmarin-dev/"><img src="https://img.shields.io/badge/GitHub--@krismarmarin-dev-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+
+<br>
+
+<strong>¡No dudes en escribirme!</strong> 📬
+
+</div>
+
+<hr>
+
+<div align="center">
+
+<h3>💭 Frase inspiradora</h3>
+
+<em>"La creatividad es la inteligencia divirtiéndose." - Albert Einstein</em>
+
+<hr>
+
+</div>
+
+</body>
+</html>
