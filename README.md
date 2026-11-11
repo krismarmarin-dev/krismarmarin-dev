@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-
+<div align="center">
 <h1>✨ Hola, soy Krismar Marin ✨</h1>
 
 <h3>🤖 Desarrollador web full-stack C# | 🎨 Artista Audiovisual</h3>
